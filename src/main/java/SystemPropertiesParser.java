@@ -53,7 +53,7 @@ public class SystemPropertiesParser {
       String[] arr = uses.split(" ");
       for (String str : arr) {
         String repo = str.split("/")[0];
-        String path = str.substring(repo.length()+1);
+        String path = str.substring(repo.length() + 1);
         SystemProperty.GithubInfo githubInfo = new SystemProperty.GithubInfo(repo, path);
         github.add(githubInfo);
       }
