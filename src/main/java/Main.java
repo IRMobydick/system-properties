@@ -18,10 +18,14 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import org.rendersnake.HtmlCanvas;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
+
+import static org.rendersnake.HtmlAttributesFactory.href;
 
 /**
  * Created by Jared on 10/30/2015.
@@ -39,6 +43,38 @@ public class Main {
     System.out.println(NORMAL_GSON.toJson(properties));
     Files.write(Paths.get("system_properties_min.json"), NORMAL_GSON.toJson(properties).getBytes());
     Files.write(Paths.get("system_properties.json"), PRETTY_GSON.toJson(properties).getBytes());
+    createReadMe(properties);
   }
 
+  private static void createReadMe(List<SystemProperty> properties) throws IOException {
+    HtmlCanvas html = new HtmlCanvas();
+    html.table();
+
+    html.tbody()
+        .tr()
+        .td().content("Key")
+        .td().content("Description")
+        .td().content("Uses")
+        ._tr()
+        ._tbody();
+
+    String githubUrl = "https://github.com/android/%s/blob/%s/%s";
+    String branch = "master";
+
+    for (SystemProperty property : properties) {
+      html.tr();
+      html.td().content(property.key);
+      html.td().content(property.desc);
+      html.td();
+      for (SystemProperty.GithubInfo o : property.github) {
+        String url = String.format(githubUrl, o.repo, branch, o.path);
+        html.a(href(url)).content(o.getClassName());
+        html.br();
+      }
+      html._td();
+      html._tr();
+    }
+
+    Files.write(Paths.get("README.md"), html.toHtml().getBytes());
+  }
 }

@@ -17,5 +17,7 @@
     <orderEntry type="library" exported="" name="Gradle: com.google.code.gson:gson:2.4" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.apache.poi:poi:3.9" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-codec:commons-codec:1.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.rendersnake:rendersnake:1.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.commons:commons-lang3:3.1" level="project" />
   </component>
 </module>

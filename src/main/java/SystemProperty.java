@@ -45,6 +45,10 @@ public class SystemProperty {
       this.repo = repo;
       this.path = path;
     }
+
+    public String getClassName() {
+      return path.substring(path.lastIndexOf("/") + 1).replaceFirst("[.][^.]+$", "");
+    }
   }
 
   public static final class Builder {

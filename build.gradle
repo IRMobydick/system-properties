@@ -27,4 +27,5 @@ repositories {
 dependencies {
     compile 'com.google.code.gson:gson:2.4'
     compile 'org.apache.poi:poi:3.9'
+    compile 'org.rendersnake:rendersnake:1.8'
 }
