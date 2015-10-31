@@ -1,0 +1,2537 @@
+[
+  {
+    "key": "audio.safemedia.force",
+    "desc": "true for safe media volume",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/java/android/media/AudioService.java"
+      }
+    ]
+  },
+  {
+    "key": "config.disable_bluetooth",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      }
+    ]
+  },
+  {
+    "key": "config.disable_location",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      }
+    ]
+  },
+  {
+    "key": "config.disable_media",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/java/android/media/SoundPool.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/ViewRootImpl.java"
+      }
+    ]
+  },
+  {
+    "key": "config.disable_network",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/content/ContentService.java"
+      }
+    ]
+  },
+  {
+    "key": "config.disable_networktime",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      }
+    ]
+  },
+  {
+    "key": "config.disable_noncore",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      }
+    ]
+  },
+  {
+    "key": "config.disable_renderscript",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "rs/java/android/renderscript/RenderScript.java"
+      }
+    ]
+  },
+  {
+    "key": "config.disable_storage",
+    "desc": "true if storage is disabled",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Environment.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      }
+    ]
+  },
+  {
+    "key": "config.disable_systemui",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      }
+    ]
+  },
+  {
+    "key": "config.disable_telephony",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      }
+    ]
+  },
+  {
+    "key": "config.override_forced_orient",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "policy/src/com/android/internal/policy/impl/PhoneWindowManager.java"
+      }
+    ]
+  },
+  {
+    "key": "ctl.restart",
+    "desc": "service:arg1 arg2 arg3 (examples: \"pre-recovery\", \"bugreport\", \"media\", \"zygote\", \"bootanim\", etc.)",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/SystemService.java"
+      }
+    ]
+  },
+  {
+    "key": "ctl.start",
+    "desc": "service:arg1 arg2 arg3 (examples: \"pre-recovery\", \"bugreport\", \"media\", \"zygote\", \"bootanim\", etc.)",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/power/PowerManagerService.java"
+      }
+    ]
+  },
+  {
+    "key": "ctl.stop",
+    "desc": "service:arg1 arg2 arg3 (examples: \"pre-recovery\", \"bugreport\", \"media\", \"zygote\", \"bootanim\", etc.)",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/SystemService.java"
+      }
+    ]
+  },
+  {
+    "key": "dalvik.vm.extra-opts",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "cmds/am/src/com/android/commands/am/Am.java"
+      }
+    ]
+  },
+  {
+    "key": "dalvik.vm.heapgrowthlimit",
+    "desc": "vm heap size in megabytes",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/ActivityManager.java"
+      }
+    ]
+  },
+  {
+    "key": "dalvik.vm.heapsize",
+    "desc": "dalvik.vm.heapsize",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/ActivityManager.java"
+      }
+    ]
+  },
+  {
+    "key": "dalvik.vm.stack-trace-file",
+    "desc": "File to dump kernel stacktraces to",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/Watchdog.java"
+      }
+    ]
+  },
+  {
+    "key": "db.log.slow_query_threshold",
+    "desc": "Determines whether a query should be logged.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/database/sqlite/SQLiteDebug.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.choreographer.frametime",
+    "desc": "Enable/disable using the frame time instead of returning now.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/Choreographer.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.choreographer.skipwarning",
+    "desc": "Set a limit to warn about skipped frames.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/Choreographer.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.choreographer.vsync",
+    "desc": "Enable/disable vsync for animations and drawing.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/Choreographer.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.doze.component",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/dreams/DreamManagerService.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.force_rtl",
+    "desc": "Force right to left layout",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/text/TextUtils.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/provider/Settings.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.freemem",
+    "desc": "Allow freemem to be overridden by debug.freemem for testing",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/storage/DeviceStorageMonitorService.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.hwui.overdraw",
+    "desc": "Controls overdraw debugging. Possible values: \"false\", to disable overdraw debugging. \"show\", to show overdraw areas on screen. \"count\", to display an overdraw counter",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/HardwareRenderer.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.hwui.print_config",
+    "desc": "System property used to debug EGL configuration choice.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/HardwareRenderer.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.hwui.profile",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/HardwareRenderer.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/ThreadedRenderer.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.hwui.profile.maxframes",
+    "desc": "System property used to specify the number of frames to be used when doing hardware rendering profiling.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/HardwareRenderer.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.hwui.render_dirty_regions",
+    "desc": "System property used to enable or disable dirty regions invalidation.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/HardwareRenderer.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.hwui.show_dirty_regions",
+    "desc": "Turn on to draw dirty regions every other frame.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/HardwareRenderer.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.hwui.show_layers_updates",
+    "desc": "Turn on to flash hardware layers when they update.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/HardwareRenderer.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.hwui.show_non_rect_clip",
+    "desc": "Turn on to debug non-rectangular clip operations. Possible values: \"hide\", to disable this debug mode. \"highlight\", highlight drawing commands tested against a non-rectangular clip. \"stencil\", renders the clip region on screen when set",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/HardwareRenderer.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.layout",
+    "desc": "When set to true, apps will draw debugging information about their layouts.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/ViewRootImpl.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.orientation.log",
+    "desc": "true to log messages from WindowOrientationListener",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "policy/src/com/android/internal/policy/impl/WindowOrientationListener.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.rs.forcecompat",
+    "github": [
+      {
+        "repo": "platform_frameworks_support",
+        "path": "v8/renderscript/java/src/android/support/v8/renderscript/RenderScript.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.second-display.pkg",
+    "desc": "For debugging purposes, if the activity's package name contains the value of the \"debug.use-second-display\" system property as a substring, then show its content on a secondary display if there is one.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/ActivityThread.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.sqlite.journalmode",
+    "desc": "The default journal mode when WAL is not in use. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/database/sqlite/SQLiteGlobal.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.sqlite.journalsizelimit",
+    "desc": "The journal size limit in bytes",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/database/sqlite/SQLiteGlobal.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.sqlite.pagesize",
+    "desc": "The default page size to use when creating a database. The default value is the block size of \"/data\".",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/database/sqlite/SQLiteGlobal.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.sqlite.syncmode",
+    "desc": "The default database synchronization mode when WAL is not in use. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/database/sqlite/SQLiteGlobal.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.sqlite.syncmode",
+    "desc": "The default database synchronization mode when WAL is not in use.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/database/sqlite/SQLiteGlobal.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.sqlite.wal.autocheckpoint",
+    "desc": "The connection pool size when in WAL mode. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/database/sqlite/SQLiteGlobal.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.sqlite.wal.syncmode",
+    "desc": "The database synchronization mode when in WAL mode. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/database/sqlite/SQLiteGlobal.java"
+      }
+    ]
+  },
+  {
+    "key": "debug.velocitytracker.alt",
+    "desc": "key used to specify an alternate velocity tracker strategy to plot alongside the default one.  Useful for testing and comparison purposes.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/widget/PointerLocationView.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pickup.proxcheck",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pickup.vibration.threshold",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.delay.in",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.delay.in.pickup",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.duration.in",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.duration.in.pickup",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.duration.out",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.duration.visible",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.notifications",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.pickup",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.proxcheck",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.schedule",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.schedule.resets",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.pulse.sigmotion",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.vibrate.pickup",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "doze.vibrate.sigmotion",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/DozeParameters.java"
+      }
+    ]
+  },
+  {
+    "key": "drm.service.enabled",
+    "desc": "Whether DRM service is enabled",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/java/android/media/MediaScanner.java"
+      }
+    ]
+  },
+  {
+    "key": "fw.power_user_switcher",
+    "desc": "Add users to menu",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "policy/src/com/android/internal/policy/impl/GlobalActions.java"
+      }
+    ]
+  },
+  {
+    "key": "fw.show_hidden_users",
+    "desc": "true if this user can be switched to",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/content/pm/UserInfo.java"
+      }
+    ]
+  },
+  {
+    "key": "fw.show_multiuserui",
+    "desc": "whether the system supports multiple users.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/UserManager.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.current.phone-type",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.network.type",
+    "desc": "Indicates the available radio technology.  Values include: \"unknown\", \"GPRS\", \"EDGE\" and \"UMTS\"",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.operator.alpha",
+    "desc": "Alpha name of current registered operator. Availability: when registered to a network. Result may be unreliable on CDMA networks. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.operator.idpstring",
+    "desc": "the international dialing prefix of current operator network",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.operator.iso-country",
+    "desc": "The ISO country code equivalent of the current registered operator's MCC (Mobile Country Code)",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.operator.isroaming",
+    "desc": "true if the device is considered roaming on this network for GSM purposes",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.operator.numeric",
+    "desc": "Numeric name (MCC+MNC) of current registered operator.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.sim.operator.alpha",
+    "desc": "Service Provider Name",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.sim.operator.iso-country",
+    "desc": "ISO country code equivalent for the SIM provider's country code",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.sim.operator.numeric",
+    "desc": "The MCC+MNC (mobile country code+mobile network code) of the provider of the SIM. 5 or 6 decimal digits. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.sim.state",
+    "desc": "One of \"UNKNOWN\", \"ABSENT\", \"PIN_REQUIRED\", \"PUK_REQUIRED\", \"NETWORK_LOCKED\", or \"READY\"",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.version.baseband",
+    "desc": "Baseband version. This property is available any time radio is on.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "gsm.version.ril-impl",
+    "desc": "Radio Interface Layer (RIL) library implementation.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "keyguard.no_require_sim",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/keyguard/KeyguardViewMediator.java"
+      }
+    ]
+  },
+  {
+    "key": "lockscreen.rot_override",
+    "desc": "Flag to enable keyguard screen rotation",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/StatusBarWindowManager.java"
+      }
+    ]
+  },
+  {
+    "key": "log.closeguard.Animation",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/animation/Animation.java"
+      }
+    ]
+  },
+  {
+    "key": "mms.transaction",
+    "desc": "Property to enable MMS Mode. default = silent, enable to = prompt",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "net.dns1",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/ConnectivityService.java"
+      }
+    ]
+  },
+  {
+    "key": "net.dns2",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/ConnectivityService.java"
+      }
+    ]
+  },
+  {
+    "key": "net.dns3",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/ConnectivityService.java"
+      }
+    ]
+  },
+  {
+    "key": "net.dns4",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/ConnectivityService.java"
+      }
+    ]
+  },
+  {
+    "key": "net.hostname",
+    "desc": "Unique device name",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/ConnectivityService.java"
+      }
+    ]
+  },
+  {
+    "key": "net.qtaguid_enabled",
+    "desc": "Key that indicates if qtaguid bandwidth controls have been enabled",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/server/NetworkManagementSocketTagger.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/NetworkManagementService.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/os/BatteryStatsImpl.java"
+      }
+    ]
+  },
+  {
+    "key": "net.tcp.default_init_rwnd",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/ConnectivityService.java"
+      }
+    ]
+  },
+  {
+    "key": "net.tethering.noprovisioning",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SettingsLib/src/com/android/settingslib/TetherUtil.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/android/telephony/TelephonyManager.java"
+      }
+    ]
+  },
+  {
+    "key": "net.tethering.noprovisioning",
+    "github": [
+      {
+        "repo": "platform_packages_apps_settings",
+        "path": "src/com/android/settings/TetherSettings.java"
+      }
+    ]
+  },
+  {
+    "key": "operator.ismanual",
+    "desc": "true if the device is on a manually selected network ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.adb.notify",
+    "desc": "Flag to show the ADB debugging notification",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/usb/java/com/android/server/usb/UsbDeviceManager.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.camera.legacy_perf",
+    "desc": "Enables performance tracking for SurfaceTextureRenderer",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/hardware/camera2/legacy/SurfaceTextureRenderer.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.debug.wfd.enable",
+    "desc": "0, WFD is forcibly disabled on boot. 1, WFD is forcibly enabled on boot.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/display/DisplayManagerService.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.demo.hdmirotates",
+    "desc": "For demonstration purposes, allow rotation of the external display to follow the built-in display.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/display/LocalDisplayAdapter.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.demo.hdmirotation",
+    "desc": "For demonstration purposes, allow rotation of the external display.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/display/LocalDisplayAdapter.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.demo.hdmirotation",
+    "desc": "For demo purposes, allow the rotation of the HDMI display to be controlled.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "policy/src/com/android/internal/policy/impl/PhoneWindowManager.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.demo.hdmirotationlock",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "policy/src/com/android/internal/policy/impl/PhoneWindowManager.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.demo.remoterotation",
+    "desc": "For demonstration purposes, allow rotation of the external display.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/display/VirtualDisplayAdapter.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.demo.remoterotation",
+    "desc": "For demo purposes, allow the rotation of the remote display to be controlled.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "policy/src/com/android/internal/policy/impl/PhoneWindowManager.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.demo.rotationlock",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "policy/src/com/android/internal/policy/impl/PhoneWindowManager.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.demo.singledisplay",
+    "desc": "Single display demo mode",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/display/DisplayManagerService.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.netmon.linger",
+    "desc": "Linger timeout on NetworkMonitor",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/connectivity/NetworkMonitor.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.netmon.reeval_delay",
+    "desc": "Negative values disable reevaluation.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/connectivity/NetworkMonitor.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.power.usetwilightadj",
+    "desc": "true if the twilight service should be used to adjust screen brightness policy.  This setting is experimental and disabled by default.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/PowerManager.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.radio.cdma.msgid",
+    "desc": "Track CDMA SMS message id numbers to ensure they increment monotonically, regardless of reboots.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.radio.default.sub",
+    "desc": "Property to store default subscription. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.radio.imsregrequired",
+    "desc": "Hide lockdown VPN on devices that require IMS authentication",
+    "github": [
+      {
+        "repo": "platform_packages_apps_settings",
+        "path": "src/com/android/settings/vpn2/VpnSettings.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.radio.multisim.config",
+    "desc": "Property to set multi sim feature.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.radio.reset_on_switch",
+    "desc": "Set to true to indicate that the modem needs to be reset when there is a radio technology change.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.radio.test-csim",
+    "desc": "Set to true to indicate a test CSIM card is used in the device. This property is for testing purpose only. This should not be defined in commercial configuration.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.security.efs.enabled",
+    "desc": "whether the Encrypted File System feature is enabled on the device or not",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Environment.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.service.adb.enable",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/usb/java/com/android/server/usb/UsbDeviceManager.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.dalvik.vm.lib.2",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/app/ProcessStats.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.hdmi.addr.playback",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/hdmi/HdmiCecLocalDevicePlayback.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/hdmi/Constants.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.hdmi.addr.tv",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/hdmi/HdmiCecLocalDevicePlayback.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/hdmi/Constants.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.profiler_depth",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/os/SamplingProfilerIntegration.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.profiler_ms",
+    "desc": "setting this secure property will start or stop sampling profiler, as well as adjust the the time between taking snapshots. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/os/SamplingProfilerIntegration.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.safemode",
+    "desc": "Indicates whether we are rebooting into safe mode",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/power/ShutdownThread.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.strictmode.disable",
+    "desc": "Boolean system property to disable strict mode checks outright. 'true' to force disable; 'false' has no effect on other enable/disable policy.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/StrictMode.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.strictmode.nonssl",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/StrictMode.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.strictmode.visual",
+    "desc": "The boolean system property to control screen flashes on violations.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/StrictMode.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.timezone",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/os/RuntimeInit.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.timezone",
+    "desc": "Timezone property",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/AlarmManagerService.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.ui.hw",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/Window.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.usb.config",
+    "desc": "The current default USB function name (seperated with a comma).",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/hardware/usb/UsbManager.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.usb.config",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/usb/java/com/android/server/usb/UsbDeviceManager.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.usb.config",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/usb/java/com/android/server/usb/UsbDeviceManager.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.uts-test-mode",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "policy/src/com/android/internal/policy/impl/PhoneWindowManager.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.sys.webview.vmsize",
+    "desc": "Chromium WebView VM size",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/webkit/WebViewFactory.java"
+      }
+    ]
+  },
+  {
+    "key": "persist.test.voice_interaction",
+    "desc": "false if voice interaction is not supported",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/voiceinteraction/java/com/android/server/voiceinteraction/VoiceInteractionManagerService.java"
+      }
+    ]
+  },
+  {
+    "key": "qemu.hw.mainkeys",
+    "desc": "Used by the emulator to override if the device has a navigation bar",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "policy/src/com/android/internal/policy/impl/PhoneWindowManager.java"
+      }
+    ]
+  },
+  {
+    "key": "qemu.sf.lcd_density",
+    "desc": "qemu.sf.lcd_density can be used to override ro.sf.lcd_density when running in the emulator, allowing for dynamic configurations.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/util/DisplayMetrics.java"
+      }
+    ]
+  },
+  {
+    "key": "ril.cdma.inecmmode",
+    "desc": "Indicate if phone is in emergency callback mode",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "ril.ecclist",
+    "desc": "List of emergency numbers",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/android/telephony/PhoneNumberUtils.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.adb.secure",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/usb/java/com/android/server/usb/UsbDeviceManager.java"
+      },
+      {
+        "repo": "platform_packages_apps_settings",
+        "path": "src/com/android/settings/DevelopmentSettings.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.audio.monitorOrientation",
+    "desc": "true to have the AudioService monitor the device orientation",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/java/android/media/AudioService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.audio.monitorRotation",
+    "desc": "true to have the AudioService monitor the device rotation",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/java/android/media/AudioService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.backup.disable",
+    "desc": "Product-level suppression of backup/restore",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/backup/java/com/android/server/backup/Trampoline.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.baseband",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/EntropyMixer.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.boot.bootreason",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/server/BootReceiver.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.boot.hardware.sku",
+    "desc": "When hardware sku property exists, use regulatory_info_<sku> resource if valid. ",
+    "github": [
+      {
+        "repo": "platform_packages_apps_settings",
+        "path": "src/com/android/settings/RegulatoryInfoDisplayActivity.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.bootloader",
+    "desc": "The system bootloader version number.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/EntropyMixer.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.bootmode",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/EntropyMixer.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.bootmode",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/usb/java/com/android/server/usb/UsbDeviceManager.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.build.date.utc",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.build.description",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/Shell/src/com/android/shell/BugreportReceiver.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.build.display.id",
+    "desc": "A build ID string meant for displaying to the user",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.build.fingerprint",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/EntropyMixer.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/AssetAtlasService.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.build.host",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.build.id",
+    "desc": "Either a changelist number, or a label like \"M4-rc20\"",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.build.user",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.build.version.all_codenames",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.build.version.incremental",
+    "desc": "The internal value used by the underlying source control to represent this build.  E.g., a perforce changelist number or a git hash.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.build.version.release",
+    "desc": "The user-visible version string. E.g., \"1.0\" or \"3.4b5\".",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.build.version.sdk",
+    "desc": "The user-visible SDK version of the framework; its possible values are defined in android.os.Build.VERSION_CODES.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.carrier",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/EntropyMixer.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.cdma.ecmexittimer",
+    "desc": "Indicate the timer value for exiting emergency callback mode",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.cdma.otaspnumschema",
+    "desc": "Defines the schema for the carrier specified OTASP number ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.com.android.dataroaming",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/android/telephony/TelephonyManager.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.com.android.mobiledata",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/android/telephony/TelephonyManager.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.com.android.wifi-watchlist",
+    "desc": "The Wi-Fi watchdog SSID list",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SettingsProvider/src/com/android/providers/settings/DatabaseHelper.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.common_time.allow_wifi",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/CommonTimeManagementService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.common_time.auto_disable",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/CommonTimeManagementService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.common_time.no_iface_timeout",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/CommonTimeManagementService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.common_time.server_prio",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/CommonTimeManagementService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.config.alarm_alert",
+    "desc": "Default alarm sound",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/java/android/media/MediaScanner.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.config.license_path",
+    "desc": "The absolute path to \"License\" files for the Android OS",
+    "github": [
+      {
+        "repo": "platform_packages_apps_settings",
+        "path": "src/com/android/settings/SettingsLicenseActivity.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.config.low_ram",
+    "desc": "true for a low RAM device",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/ActivityManager.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.config.max_starting_bg",
+    "desc": "Maximum number of services that is allowed to start in the background at the same time",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/am/ActiveServices.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.config.media_vol_steps",
+    "desc": "Default media volume steps",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/java/android/media/AudioService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.config.notification_sound",
+    "desc": "Default notification sound",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/java/android/media/MediaScanner.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.config.ringtone",
+    "desc": "Default ringtone sound",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/java/android/media/MediaScanner.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.config.vc_call_vol_steps",
+    "desc": "Default call volume steps",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/java/android/media/MediaScanner.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/java/android/media/AudioService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.config.wallpaper",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/WallpaperManager.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.config.wallpaper_component",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/WallpaperManager.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.crypto.state",
+    "desc": "Determine if the device supports encryption, even if it's set to default.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/server/BootReceiver.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/widget/LockPatternUtils.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.dalvik.vm.isa.{abi}.features",
+    "desc": "The instruction set that should be used to compile dex code.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/pm/InstructionSets.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/ApplicationPackageManager.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/LoadedApk.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.dalvik.vm.native.bridge",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/content/NativeLibraryHelper.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.debuggable",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/server/BootReceiver.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/os/ZygoteConnection.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.emulator.circular",
+    "desc": "property used by emulator to determine display shape",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/service/wallpaper/WallpaperService.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/ViewRootImpl.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.error.receiver.default",
+    "desc": "System property defining default error report receiver",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/ApplicationErrorReport.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.error.receiver.system.apps",
+    "desc": "System property defining error report receiver for system apps",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/ApplicationErrorReport.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.factorytest",
+    "desc": "The current factory test mode (0=off, 1-low level, 2=high level).",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/FactoryTest.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/os/ZygoteConnection.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.frp.pst",
+    "desc": "Persistent data block property",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/PersistentDataBlockService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.hardware",
+    "desc": "The name of the hardware (from the kernel command line or /proc).",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/EntropyMixer.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.hardware.gps",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/location/GpsLocationProvider.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.hdmi.device_type",
+    "desc": "Property name for the local device configurations.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/hdmi/HdmiControlService.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/hdmi/Constants.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.kernel.android.tracing",
+    "desc": "Emulator trace profiling",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/os/RuntimeInit.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.kernel.qemu",
+    "desc": "value will be \"1\" if the device is an emulator",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/ImageWallpaper.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.lockscreen.disable.default",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/LockSettingsService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.media.effect.bgdropper.adj",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "media/mca/filterpacks/java/android/filterpacks/videoproc/BackDropperFilter.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.opengles.version",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "opengl/java/android/opengl/GLSurfaceView.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.product.board",
+    "desc": "The name of the underlying board, like \"goldfish\".",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.product.brand",
+    "desc": "The consumer-visible brand with which the product/hardware will be associated, if any.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.product.cpu.abilist",
+    "desc": "An ordered list of ABIs supported by this device. The most preferred ABI is the first element in the list.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.product.cpu.abilist32",
+    "desc": "An ordered list of 32 bit ABIs supported by this device. The most preferred ABI is the first element in the list",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.product.cpu.abilist64",
+    "desc": "An ordered list of 64 bit ABIs supported by this device. The most preferred ABI is the first element in the list.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.product.device",
+    "desc": "The name of the industrial design.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.product.manufacturer",
+    "desc": "The manufacturer of the product/hardware.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.product.model",
+    "desc": "The end-user-visible name for the end product.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.product.name",
+    "desc": "The name of the overall product.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.radio.noril",
+    "desc": "true if device is Wi-Fi only",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/ConnectivityService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.revision",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/EntropyMixer.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.revision",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/server/BootReceiver.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.ril.wake_lock_timeout",
+    "desc": "Property to override DEFAULT_WAKE_LOCK_TIMEOUT ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.runtime.firstboot",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/server/BootReceiver.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.serialno",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/EntropyMixer.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.serialno",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/usb/java/com/android/server/usb/UsbDeviceManager.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.serialno",
+    "desc": "A hardware serial number, if available. Alphanumeric only, case-insensitive.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.sf.lcd_density",
+    "desc": "The device density.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/util/DisplayMetrics.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.telephony.call_ring.delay",
+    "desc": "The number of milliseconds between CALL_RING notifications. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.telephony.call_ring.multipl",
+    "desc": "Set to true for vendor RIL's that send multiple UNSOL_CALL_RING notifications. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.telephony.default_network",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/RILConstants.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.telephony.disable-call",
+    "desc": "Disable all calls including Emergency call when it set to true. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.telephony.sim.count",
+    "desc": "Set to the sim count. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.test_harness",
+    "desc": "true if device is running in a test harness",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/ActivityManager.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.tether.denied",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/ConnectivityService.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.vendor.build.fingerprint",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/os/Build.java"
+      }
+    ]
+  },
+  {
+    "key": "ro.zygote.disable_gl_preload",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/internal/os/ZygoteInit.java"
+      }
+    ]
+  },
+  {
+    "key": "selinux.reload_policy",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/updates/SELinuxPolicyInstallReceiver.java"
+      }
+    ]
+  },
+  {
+    "key": "sendbug.preferred.domain",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/Shell/src/com/android/shell/BugreportReceiver.java"
+      }
+    ]
+  },
+  {
+    "key": "service.adb.tcp.port",
+    "desc": "Enable ADB over Wi-Fi ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/usb/UsbDebuggingActivity.java"
+      }
+    ]
+  },
+  {
+    "key": "socket.relaxsslcheck",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/net/SSLCertificateSocketFactory.java"
+      }
+    ]
+  },
+  {
+    "key": "sync.local_sync_delay",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/content/SyncManager.java"
+      }
+    ]
+  },
+  {
+    "key": "sync.max_init_syncs",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/content/SyncManager.java"
+      }
+    ]
+  },
+  {
+    "key": "sync.max_regular_syncs",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/content/SyncManager.java"
+      }
+    ]
+  },
+  {
+    "key": "sync.max_time_per_sync",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/content/SyncManager.java"
+      }
+    ]
+  },
+  {
+    "key": "sync.notification_delay",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/content/SyncManager.java"
+      }
+    ]
+  },
+  {
+    "key": "sys.boot_completed",
+    "desc": "1 (true) if the system has sent BOOT_COMPLETE broadcast",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SystemUI/src/com/android/systemui/SystemUIApplication.java"
+      }
+    ]
+  },
+  {
+    "key": "sys.max_texture_size",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/app/WallpaperManager.java"
+      }
+    ]
+  },
+  {
+    "key": "sys.powerctl",
+    "desc": "shutdown,reason|reboot,reason",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/power/PowerManagerService.java"
+      }
+    ]
+  },
+  {
+    "key": "sys.settings_secure_version",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/provider/Settings.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java"
+      }
+    ]
+  },
+  {
+    "key": "sys.shutdown.requested",
+    "desc": "Provides shutdown assurance in case the system_server is killed",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/power/ShutdownThread.java"
+      }
+    ]
+  },
+  {
+    "key": "sys.sysctl.extra_free_kbytes",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/am/ProcessList.java"
+      }
+    ]
+  },
+  {
+    "key": "sys.usb.config",
+    "desc": "The enabled USB functions",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/hardware/usb/UsbManager.java"
+      }
+    ]
+  },
+  {
+    "key": "sys.usb.config",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/usb/java/com/android/server/usb/UsbDeviceManager.java"
+      }
+    ]
+  },
+  {
+    "key": "sys.usb.state",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/usb/java/com/android/server/usb/UsbDeviceManager.java"
+      }
+    ]
+  },
+  {
+    "key": "system_init.startmountservice",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      }
+    ]
+  },
+  {
+    "key": "telephony.lteOnCdmaDevice",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "telephony.lteOnCdmaProductType",
+    "desc": "The contents of this property is the value of the kernel command line product_type variable that corresponds to a product that supports LTE on CDMA.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "telephony.sms.receive",
+    "desc": "Set to false to disable SMS receiving, default is the value of config_sms_capable",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "telephony.sms.send",
+    "desc": "Set to false to disable SMS sending, default is the value of config_sms_capable ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "telephony.test.ignore.nitz",
+    "desc": "Ignore RIL_UNSOL_NITZ_TIME_RECEIVED completely, used for debugging/testing. ",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "telephony/java/com/android/internal/telephony/TelephonyProperties.java"
+      }
+    ]
+  },
+  {
+    "key": "test.radios",
+    "github": [
+      {
+        "repo": "platform_packages_apps_settings",
+        "path": "src/com/android/settings/DataUsageSummary.java"
+      }
+    ]
+  },
+  {
+    "key": "test.subscriberid",
+    "github": [
+      {
+        "repo": "platform_packages_apps_settings",
+        "path": "src/com/android/settings/DataUsageSummary.java"
+      }
+    ]
+  },
+  {
+    "key": "viewroot.profile_rendering",
+    "desc": "Set this system property to true to force the view hierarchy to render at 60 Hz. This can be used to measure the potential framerate.",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/android/view/ViewRootImpl.java"
+      }
+    ]
+  },
+  {
+    "key": "vold.decrypt",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/usb/java/com/android/server/usb/UsbDeviceManager.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/java/com/android/server/SystemServer.java"
+      },
+      {
+        "repo": "platform_frameworks_base",
+        "path": "core/java/com/android/server/BootReceiver.java"
+      }
+    ]
+  },
+  {
+    "key": "vold.encrypt_progress",
+    "github": [
+      {
+        "repo": "platform_frameworks_base",
+        "path": "services/core/java/com/android/server/MountService.java"
+      }
+    ]
+  }
+]
