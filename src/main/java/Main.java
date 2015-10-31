@@ -59,7 +59,7 @@ public class Main {
         ._tbody();
 
     String githubUrl = "https://github.com/android/%s/blob/%s/%s";
-    String branch = "master";
+    String branch = "lollipop-release";
 
     for (SystemProperty property : properties) {
       html.tr();
